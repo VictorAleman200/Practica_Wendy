@@ -1,0 +1,31 @@
+@property --blanco{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #FFFFFF;
+}
+@property --negro{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #2F1E18;
+}
+@property --azul{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #24ACE9;
+}
+@property --rojo{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #DD1438;
+}
+@property --rojoOscuro{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #9C0B2B;
+}
+@property --rojoClaro{
+    syntax: "<color>";
+    inherits: true;
+    initial-value: #FCD3D7;
+}
+

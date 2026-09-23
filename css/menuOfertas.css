@@ -1,0 +1,57 @@
+#ofertas {
+    margin: 20px 0;
+}
+
+.oferta {
+    width: 100vw;
+    height: 200px;
+    background-color: var(--rojo);
+    margin: 10px 0;
+    position: relative;
+}
+
+.btn-oferta {
+    position: absolute;
+    border-radius: 5px;
+    padding: 10px 5vw;
+    transition: .3s;
+    border: none;
+}
+
+.btn-oferta:hover {
+    cursor: pointer;
+}
+
+.oferta1 {
+    background-image: url('../img/ofertas/Oferta1.jpg');
+    color: white;
+    right: 5vw;
+    bottom: 20px;
+}
+
+.oferta1:hover {
+    background-color: var(--azul);
+}
+
+.oferta2 {
+    background-color: var(--azul);
+    color: white;
+    left: 5vw;
+    bottom: 20px;
+}
+
+.oferta2:hover {
+    background-color: var(--rojo);
+}
+
+.oferta3 {
+    background-color: white;
+    color: var(--negro);
+    right: 5vw;
+    bottom: 20px;
+}
+
+.oferta3:hover {
+    background-color: var(--negro);
+    color: white;
+}

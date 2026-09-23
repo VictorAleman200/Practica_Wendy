@@ -1,0 +1,41 @@
+body {
+    background-color: none;
+}
+
+footer {
+    background-color: var(--rojoOscuro);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+}
+
+footer .seccion {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer .logo {
+
+    align-items: center;
+    height: 50%;
+}
+
+footer .logo img {
+    width: 120px;
+    height: 100%;
+
+}
+
+@media (min-width: 768px) {
+    body {
+        background-color: aqua;
+    }
+}
+
+@media (min-width: 1024px) {
+    body {
+        background-color: blue;
+    }
+}

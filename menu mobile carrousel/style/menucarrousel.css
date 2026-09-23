@@ -1,0 +1,86 @@
+h2{
+    text-align: center;
+}
+
+h4{
+    padding-left: 10px;
+}
+
+.carrousel .containerSlider
+{
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(225, 224, 224);
+}
+
+.track
+{
+    display: flex;
+    transition: transform 0.6s ease;
+    will-change: transform;
+    padding-top: 10px 0 10px 0;
+}
+
+.slide
+{
+    align-items: center;
+    position: relative;
+    flex: 40px 40px;
+    padding: 0 20px 0 20px;
+}
+
+.slide img
+{
+    width: 100px;
+    height: 100px;
+    padding: 5%;
+    border-radius: 50%;
+    background-color: white;
+
+}
+
+.caption
+{
+    font-family: Arial;
+    position: relative;
+    width: 100%;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+    text-wrap: wrap;
+}
+
+button.prev, button.next
+{
+    background: rgb(239, 239, 239);
+    color: black;
+    border-color: rgb(151, 151, 151);
+    border-radius: 4px;
+    border-width: 1px;
+    font-size: 20px;
+    padding: 40px 5px;
+    position: absolute;
+    bottom: 0%;
+    top: 0%;
+    transform: rotateY(-50%);
+    z-index: 4;
+}
+
+button.prev
+{
+    left: 2px;
+}
+
+button.next
+{
+    right: 2px;
+}
+
+.prev:hover,
+.next:hover
+{
+    background: rgb(210, 210, 210);
+}
+
+ 
