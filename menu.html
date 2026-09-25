@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/estandarizadores/normalize.css">
     <link rel="stylesheet" href="css/estandarizadores/reset.css">
 
-    <link rel="stylesheet" href="css/root.css">
     <link rel="stylesheet" href="css/general.css">
     <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/menuOfertas.css">
@@ -17,14 +16,27 @@
 
 <body>
     <header>
-        <div id="header-in">
+        <div id="header-in-cel">
             <a href=""><img class="opcionesH" src="img/header/Opciones.png" alt="Opciones"></a>
             <a href=""><img class="logoH" src="img/header/LogoColor.png" alt="Wendy's"></a>
             <a href=""><img clas-s="ubicacionH" src="img/header/Ubicacion.png" alt="Sucursales"></a>
         </div>
+
+        <div id="header-in">
+            <div class="logo">
+                <a href=""><img class="logoH" src="img/header/LogoColor.png" alt="Wendy's"></a>
+            </div>
+            <nav class="opciones-navegacion">
+                <a href="" class="opcion">Menu</a>
+                <a href="" class="opcion">Sobre nosotros</a>
+                <a href="" class="opcion">Encontrar trabajo</a>
+                <a href="" class="opcion">Sucursales</a>
+            </nav>
+        </div>
+
     </header>
 
-    <section id="ofertas">
+    <section id="ofertas-cel">
         <h2>OFERTAS</h2>
         <article class="oferta of1">
             <button class="btn-oferta btn-oferta1">
@@ -36,43 +48,139 @@
                 COMPRAR
             </button>
         </article>
-        <article class="oferta of3">
-            <button class="btn-oferta btn-oferta3">
-                COMPRAR
-            </button>
-        </article>
     </section>
 
-    <section class="menuContainer">
+    <section id="big-content">
+        <section id="titulo">
+            <h1>Nuestro menú</h1>
+        </section>
+
+        <section id="ofertas-carrusel">
+            <button class="atras"> &lt; </button>
+            <button class="adelante"> &gt; </button>
+        </section>
+
+        <div class="indice"><img src="img/pc-ofertas/Indice.png" alt="Indice"></div>
+
+        <section id="menu-categorias">
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/combos.png" alt="Combos">
+                </div>
+                <h3 class="txt-categoria">Combos</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/hamburguesas.png" alt="Hamburguesas">
+                </div>
+                <h3 class="txt-categoria">Hamburguesas</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/pollos.png" alt="Pollos, nuggets y más">
+                </div>
+                <h3 class="txt-categoria">Pollos, nuggets y más</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/palitos.png" alt="Palitos">
+                </div>
+                <h3 class="txt-categoria">Palitos</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/papas.png" alt="Papas fritas y extras">
+                </div>
+                <h3 class="txt-categoria">Papas fritas y extras</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/bebidas.png" alt="Bebidas">
+                </div>
+                <h3 class="txt-categoria">Bebidas</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/frosty.png" alt="Frosty">
+                </div>
+                <h3 class="txt-categoria">Frosty</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/pan.png" alt="Pan y galletas">
+                </div>
+                <h3 class="txt-categoria">Pan y galletas</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/cafe.png" alt="Café">
+                </div>
+                <h3 class="txt-categoria">Café</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/ensalada.png" alt="Ensaladas">
+                </div>
+                <h3 class="txt-categoria">Ensaladas</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/infantil.png" alt="Infantiles">
+                </div>
+                <h3 class="txt-categoria">Infantiles</h3>
+            </article>
+
+            <article class="categoria">
+                <div class="img-categoria">
+                    <img src="img/categorias/rentable.png" alt="Mas rentables">
+                </div>
+                <h3 class="txt-categoria">Mas rentables</h3>
+            </article>
+        </section>
+    </section>
+
+    <section class="menuContainer-cel">
         <h2>MENU</h2>
 
-        <h4>Hamburguesas</h4>
+        <br>
+
+        <h3>Hamburguesas</h3>
         <section class="carrousel" id="carrousel">
             <article class="containerSlider">
-                <button class="prev">&lt;</button>
+                <button class="prev"> &lt; </button>
                 <div class="track">
                     <div class="slide">
-                        <img src="img/BURGER icons/baconator.png">
+                        <img src="img/BURGER icons/baconator.png" alt="Baconator">
                         <div class="caption">Baconator</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/BURGER icons/daves-single.png">
+                        <img src="img/BURGER icons/daves-single.png" alt="Dave's Single">
                         <div class="caption">Dave's Single</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/BURGER icons/double-stack.png">
+                        <img src="img/BURGER icons/double-stack.png" alt="Double Stack">
                         <div class="caption">Double Stack</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/BURGER icons/big-bacon-classic.png">
+                        <img src="img/BURGER icons/big-bacon-classic.png" alt="Classic de Tocino">
                         <div class="caption">Classic de Tocino</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/BURGER icons/jr-cheeseburger.png">
+                        <img src="img/BURGER icons/jr-cheeseburger.png" alt="Queso Jr">
                         <div class="caption">Queso Jr</div>
                     </div>
                 </div>
@@ -80,33 +188,33 @@
             </article>
         </section>
 
-        <h4>Pollo</h4>
+        <h3>Pollo</h3>
         <section class="carrousel" id="carrousel">
             <article class="containerSlider">
-                <button class="prev">&lt;</button>
+                <button class="prev"> &lt; </button>
                 <div class="track">
                     <div class="slide">
-                        <img src="img/CHICKEN_icons/chicken sandwich.png">
+                        <img src="img/CHICKEN icons/chicken sandwich.png" alt="Sandwich de Pollo">
                         <div class="caption">Sandwich de Pollo</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/CHICKEN_icons/chicken-blt.png">
+                        <img src="img/CHICKEN icons/chicken-blt.png" alt="Sandwich de Pollo (+Tocino)">
                         <div class="caption">Sandwich de Pollo (+Tocino) </div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/CHICKEN_icons/grilled-chicken-wrap.png">
+                        <img src="img/CHICKEN icons/grilled-chicken-wrap.png" alt="Wrap de Pollo">
                         <div class="caption">Wrap de Pollo</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/CHICKEN_icons/chicken-nuggets.png">
+                        <img src="img/CHICKEN icons/chicken-nuggets.png" alt="Nuggets de Pollo">
                         <div class="caption">Nuggets de Pollo</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/CHICKEN_icons/spicy-nuggets.png">
+                        <img src="img/CHICKEN icons/spicy-nuggets.png" alt="Nuggets de Pollo (Spicy)">
                         <div class="caption">Nuggets de Pollo (Spicy)</div>
                     </div>
                 </div>
@@ -114,33 +222,33 @@
             </article>
         </section>
 
-        <h4>Bebidas</h4>
+        <h3>Bebidas</h3>
         <section class="carrousel" id="carrousel">
             <article class="containerSlider">
-                <button class="prev">&lt;</button>
+                <button class="prev"> &lt; </button>
                 <div class="track">
                     <div class="slide">
-                        <img src="img/DRINK icons/coke.png">
+                        <img src="img/DRINK icons/coke.png" alt="Coca-Cola">
                         <div class="caption">Coca-Cola</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/DRINK icons/fanta.png">
+                        <img src="img/DRINK icons/fanta.png" alt="Fanta">
                         <div class="caption">Fanta</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/DRINK icons/oj.png">
+                        <img src="img/DRINK icons/oj.png" alt="Jugo de Naranja">
                         <div class="caption">Jugo de Naranja</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/DRINK icons/frosty.png">
+                        <img src="img/DRINK icons/frosty.png" alt="Frosty">
                         <div class="caption">Frosty</div>
                     </div>
 
                     <div class="slide">
-                        <img src="img/DRINK icons/malt.png">
+                        <img src="img/DRINK icons/malt.png" alt="Malteada">
                         <div class="caption">Malteada</div>
                     </div>
                 </div>
@@ -152,43 +260,51 @@
 
     <footer>
         <section class="footer-superior">
-            <section class="seccion logo">
-                <img src="img/Logo Blanco.png" alt="Imagen de Icono de Wendy's">
+            <section class="seccion informacion">
+                <section class="logo">
+                    <img src="img/Logo Blanco.png" alt="Imagen de Icono de Wendy's">
+                </section>
+
+                <section class="links">
+                    <div class="superior">
+                        <a href="">Facturación</a>
+                        <a href="">Contáctanos</a>
+                        <a href="">Franquiciamiento</a>
+                        <a href="">Inversores</a>
+                    </div>
+                    <div class="inferior">
+                        <a href="">Política de privacidad</a>
+                        <a href="">Términos y condiciones</a>
+                        <a href="">Política de cookies</a>
+                        <a href="">Aviso legal</a>
+                    </div>
+                </section>
             </section>
 
-            <section class="seccion links">
-                <div class="superior">
-                    <a href="">Facturación</a>
-                    <a href="">Contáctanos</a>
-                    <a href="">Franquiciamiento</a>
-                    <a href="">Inversores</a>
-                </div>
-                <div class="inferior">
-                    <a href="">Política de privacidad</a>
-                    <a href="">Términos y condiciones</a>
-                    <a href="">Política de cookies</a>
-                    <a href="">Aviso legal</a>
-                </div>
-            </section>
             <section class="seccion iconos">
-                <div class="servicios">
-                    <img src="img/didi.png" alt="">
-                    <img src="img/uber eats.png" alt="">
-                    <img src="img/rappi.jpg" alt="">
+                <div class="fila-iconos-1">
+                    <img src="img/didi.png" alt="DiDi Food">
+                    <img src="img/uber.png" alt="Uber Eats">
+                    <img src="img/rappi.png" alt="Rappi">
                 </div>
-                <div class="redes">
-                    <img src="img/akar-icons_instagram-fill.png" alt="">
-                    <img src="img/brandico_facebook-rect.png" alt="">
-                    <img src="img/lineicons_tiktok-alt.png" alt="">
+                <div class="fila-iconos-2">
+                    <img src="img/instagram.png" alt="Instagram">
+                    <img src="img/facebook.png" alt="Facebook">
+                    <img src="img/tiktok.png" alt="TikTok">
                 </div>
             </section>
         </section>
+
         <section class="footer-inferior">
             <p>© 2026 Quality Is Our Recipe, LLC</p>
             <button>
-                <img src="" alt="">
-                <p>MX</p>
-                <i></i>
+                <img src="img/mexico_bandera.png" alt="México Bandera">
+                <p>México</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" alt="Flecha hacia Abajo"
+                    class="bi bi-caret-down" viewBox="0 0 16 16">
+                    <path
+                        d="M3.204 5h9.592L8 10.481zm-.753.659 4.796 5.48a1 1 0 0 0 1.506 0l4.796-5.48c.566-.647.106-1.659-.753-1.659H3.204a1 1 0 0 0-.753 1.659" />
+                </svg>
             </button>
         </section>
 

@@ -1,25 +1,28 @@
-#ofertas {
+#ofertas-cel {
     margin: 20px 0;
 }
 
 .oferta {
     width: 100vw;
     height: 200px;
-    background-color: var(--rojo);
     margin: 10px 0;
-    position: relative;
+    position: relative
 }
 
-.of1{
+.of1 {
+    background-color: #047ba5;
     background-image: url('../img/ofertas/Oferta1.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-.of2{
+.of2 {
+    background-color: #9b1c16;
     background-image: url('../img/ofertas/Oferta2.jpg');
-}
-
-.of3{
-    background-image: url('../img/ofertas/Oferta3.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .btn-oferta {
@@ -56,14 +59,76 @@
     background-color: var(--rojo);
 }
 
-.btn-oferta3 {
-    background-color: white;
-    color: var(--negro);
-    right: 5vw;
-    bottom: 20px;
+@media (min-width: 768px) {
+    #titulo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 50px;
+        background-image: url('../img/pc-ofertas/banner.png');
+        margin-bottom: 30px;
+    }
+
+    #ofertas-carrusel {
+        position: relative;
+        height: 150px;
+        width: 100%;
+        background-color: var(--rojo);
+        background-image: url('../img/pc-ofertas/Ofertas.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .adelante,
+    .atras {
+        background-color: rgba(47, 30, 24, 0.233);
+        border: none;
+        color: #FFFFFF;
+        font-weight: 900;
+        padding: 0 10px;
+        position: absolute;
+        margin: 0;
+        bottom: 0%;
+        top: 0%;
+        z-index: 4;
+    }
+
+    .adelante:hover,
+    .atras:hover {
+        background: var(--azul);
+    }
+
+    .atras {
+        left: 0;
+    }
+
+    .adelante {
+        right: 0;
+    }
+
+    .indice {
+        display: flex;
+        justify-content: center;
+        margin-top: 8px;
+        margin-bottom: 30px;
+    }
 }
 
-.btn-oferta3:hover {
-    background-color: var(--negro);
-    color: white;
+@media (min-width: 1024px) {
+    #titulo {
+        height: 80px;
+        background-image: url('../img/pc-ofertas/banner.png');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    #ofertas-carrusel {
+        position: relative;
+        height: 210px;
+        width: 100%;
+        background-color: var(--rojo);
+        background-image: none;
+    }
 }
